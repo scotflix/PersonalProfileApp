@@ -8,7 +8,7 @@
     </head>
     <body>
         <h1>Create Your Profile</h1>
-        <form action="save_profile.php" method="post" enctype="multipart/form-data">
+        <form action="./includes/save_profile.php" method="post" enctype="multipart/form-data">
         <div class="form-group">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
